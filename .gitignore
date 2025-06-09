@@ -1,0 +1,29 @@
+# .gitignore
+# Игнорировать всю папку models
+models/
+
+# Игнорировать виртуальное окружение
+venv/
+.env
+
+# Игнорировать файлы кэша Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Файлы IDE
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+venv/
+venv/
