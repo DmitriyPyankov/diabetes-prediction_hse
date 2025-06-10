@@ -36,7 +36,7 @@ def main():
         gr.Number(label="Толщина кожи (mm, например: 20)"),
         gr.Number(label="Инсулин (mu U/ml, например: 85)"),
         gr.Number(label="BMI (например: 24.5)"),
-        gr.Number(label="Diabetes Pedigree (например: 0.35)"),
+        gr.Number(label="Показатель наследственности диабета (например: 0.5)"),
         gr.Number(label="Возраст (например: 35)"),
     ]
 
